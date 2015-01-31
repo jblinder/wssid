@@ -53,8 +53,9 @@
     $ssid1 = "++++🆆🆂🆂🅸🅳";
     $ssid2 = "++-Brooklyn,+NY+".(string)$temp."°";
     $ssid3 = "++-Currently+".$condition;
-    $ssid4 = "++-Wind ▁▂◌▃▅▆▇";
-    // :(
+    // todo: visualize wind data -- what's our min/max range?
+    $ssid4 = "++-Wind ▁▂◌▃▅▆▇"; 
+    // lol :/
     exec("curl http://1.2.3.4/apply.cgi -d \"submit_button=Wireless_Basic&action=ApplyTake&change_action=gozila_cgi&submit_type=save&wl0_nctrlsb=&wl1_nctrlsb=&iface=&wl0_mode=ap&wl0_net_mode=mixed&wl0_ssid=".$ssid1."&wl0_channel=6&wl0_closed=0&wl0_distance=2000&eth1_bridged=1&eth1_multicast=0&eth1_nat=1&eth1_ipaddr=4&eth1_ipaddr_0=0&eth1_ipaddr_1=0&eth1_ipaddr_2=0&eth1_ipaddr_3=0&eth1_netmask=4&eth1_netmask_0=0&eth1_netmask_1=0&eth1_netmask_2=0&eth1_netmask_3=0&wl0.1_ssid=".$ssid2."&wl0.1_closed=0&wl0.1_ap_isolate=0&wl0.1_bridged=1&wl0.1_multicast=0&wl0.1_nat=1&wl0.1_ipaddr=4&wl0.1_ipaddr_0=0&wl0.1_ipaddr_1=0&wl0.1_ipaddr_2=0&wl0.1_ipaddr_3=0&wl0.1_netmask=4&wl0.1_netmask_0=0&wl0.1_netmask_1=0&wl0.1_netmask_2=0&wl0.1_netmask_3=0&wl0.2_ssid=".$ssid3."&wl0.2_closed=0&wl0.2_ap_isolate=0&wl0.2_bridged=1&wl0.2_multicast=0&wl0.2_nat=1&wl0.2_ipaddr=4&wl0.2_ipaddr_0=0&wl0.2_ipaddr_1=0&wl0.2_ipaddr_2=0&wl0.2_ipaddr_3=0&wl0.2_netmask=4&wl0.2_netmask_0=0&wl0.2_netmask_1=0&wl0.2_netmask_2=0&wl0.2_netmask_3=0&wl0.3_ssid=".$ssid4."&wl0.3_closed=0&wl0.3_ap_isolate=0&wl0.3_bridged=1&wl0.3_multicast=0&wl0.3_nat=1&wl0.3_ipaddr=4&wl0.3_ipaddr_0=0&wl0.3_ipaddr_1=0&wl0.3_ipaddr_2=0&wl0.3_ipaddr_3=0&wl0.3_netmask=4&wl0.3_netmask_0=0&wl0.3_netmask_1=0&wl0.3_netmask_2=0&wl0.3_netmask_3=0\" -u user:pass");
 
 ?>
