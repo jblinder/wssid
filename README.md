@@ -14,5 +14,5 @@ WSSID is a collaboration by [Justin Blinder](http://www.justinblinder.com) and [
 
 ### Requirements
 * Wireless Router
-* DD-WRT
+* [DD-WRT](http://www.dd-wrt.com/site/index)
 * Codes (cleaning/updating soon)
